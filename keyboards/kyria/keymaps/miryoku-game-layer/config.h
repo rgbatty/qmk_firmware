@@ -2,6 +2,10 @@
 
 #pragma once
 
+#ifdef OLED_DRIVER_ENABLE
+  #define OLED_DISPLAY_128X64
+#endif
+
 #define XXX KC_NO
 
 // default but used in macros
